@@ -10,7 +10,7 @@ body, html {
     letter-spacing: 0.082em;
 }
 #gallery {
-    filter: url(#warp);
+/*     filter: url(#warp); */
     width: 100%;
     height: 100%;
     position: relative;
