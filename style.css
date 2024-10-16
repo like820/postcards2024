@@ -22,7 +22,7 @@ body, html {
 
 #footer {
     filter: url(#warp);
-    font-size: 2em;
+    font-size: 1em;
     position: fixed;
     bottom: 0;
     left: 0;
