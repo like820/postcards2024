@@ -20,14 +20,14 @@ body, html {
  position: absolute;
     cursor: move;
 }
-img .image-container {
+.image-container img{
 border-radius: 0.42em;
     filter: drop-shadow(8px 2px 8px #000420);
 }
 
 
 #footer {
-    filter: url(#warp);
+    filter: url(#warp) drop-shadow(8px 2px 8px #000420);
     font-size: 1em;
     position: fixed;
     bottom: 0;
@@ -37,4 +37,6 @@ border-radius: 0.42em;
     padding: 1em;
     text-align: center;
     background-color: white;
+    z-index: 200;
+
 }
