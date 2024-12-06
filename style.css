@@ -27,7 +27,7 @@ border-radius: 0.42em;
 
 
 #footer {
-    filter: url(#warp) drop-shadow(8px 2px 8px #000420);
+    filter: drop-shadow(8px 2px 8px #000420) url(#warp) ;
     font-size: 1em;
     position: fixed;
     bottom: 0;
